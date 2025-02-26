@@ -1,0 +1,9 @@
+const numbers = [32, 67, 98, 102, 43, 27, 34, 71, 31, 76, 13, 100];
+
+numbers.forEach(num => {
+    if (num % 2 === 0) {
+        console.log(`${num} - juft son`);
+    } else {
+        console.log(`${num} - toq son`);
+    }
+});
